@@ -19,6 +19,7 @@ public class Main {
 		
 		MySQL.setConnection();
 
+		//lol 
 		
 		BasketContentGUI bc = new BasketContentGUI();
 		bc.setVisible(true);
