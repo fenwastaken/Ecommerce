@@ -19,6 +19,7 @@ import javax.swing.JPanel;
 
 import dao.Customer;
 import dao.CustomerManager;
+import dao.TestCustomerManager;
 
 public class CustomerGUI extends JDialog{
 

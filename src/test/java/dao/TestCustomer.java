@@ -2,12 +2,13 @@ package dao;
 
 import java.util.Date;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class TestCustomer {
 
 	@Test
-	public boolean testCustomer(){
+	public void testCustomer(){
 		String id = "id";
 		String firstName = "fname";
 		String lastName = "lname";
@@ -49,7 +50,7 @@ public class TestCustomer {
 			isValid = false;
 		}
 		
-		return isValid;
+		Assert.assertTrue(isValid);
 	}
 	
 	

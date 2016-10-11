@@ -26,6 +26,7 @@ import javax.swing.ScrollPaneConstants;
 
 import dao.Customer;
 import dao.CustomerManager;
+import dao.TestCustomerManager;
 import dao.Item;
 import dao.ItemManager;
 import dao.instanceOfItemManager;

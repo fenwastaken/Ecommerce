@@ -8,7 +8,7 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.sql.SQLException;
 
-import dao.CustomerManager;
+import dao.TestCustomerManager;
 import dao.instanceOfItemManager;
 import database.MySQL;
 
