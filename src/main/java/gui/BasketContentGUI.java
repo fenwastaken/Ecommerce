@@ -1,6 +1,7 @@
 package gui;
 
 import java.awt.Dimension;
+import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
@@ -21,6 +22,7 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
+import javax.swing.ScrollPaneConstants;
 
 import dao.Customer;
 import dao.CustomerManager;
@@ -100,6 +102,7 @@ public class BasketContentGUI extends JFrame{
 		
 		
 		panRight.add(spanItems);
+		spanItems.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 		JPanel PanContainer = new JPanel();
 		PanContainer.setPreferredSize(new Dimension(380, 80));
 		spanItems.setPreferredSize(new Dimension(380, 400));
@@ -166,6 +169,7 @@ public class BasketContentGUI extends JFrame{
 	public void setLine(String str){
 		JLabel lab = new JLabel();
 		JPanel panLab = new JPanel();
+		panLab.setLayout(new FlowLayout(FlowLayout.LEFT));
 		panLab.setPreferredSize(new Dimension(375, 30));
 		panLab.setMaximumSize(new Dimension(375, 30));
 		
