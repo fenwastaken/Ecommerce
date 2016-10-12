@@ -70,7 +70,6 @@ public class CustomerGUI extends JDialog{
 		panRet.setMaximumSize(new Dimension(400, 40));
 		labReturn.setMinimumSize(new Dimension(250, 30));
 		labReturn.setPreferredSize(new Dimension(250, 30));
-		
 
 		zoneClient.add(liFirstName);
 		zoneClient.add(liLastName);

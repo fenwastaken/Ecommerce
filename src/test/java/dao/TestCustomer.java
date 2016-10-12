@@ -19,7 +19,7 @@ public class TestCustomer {
 		Date date  = new Date(System.currentTimeMillis());
 		
 		Customer customer = new Customer(id, firstName, lastName, gender, age, address, email, date);
-		
+
 		boolean isValid = true;
 		
 		if(!customer.getId().equals(id)){
