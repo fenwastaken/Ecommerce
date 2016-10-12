@@ -13,7 +13,7 @@ public class Main {
 		BasketContentGUI bc = new BasketContentGUI();
 		bc.setVisible(true);
 	
-		
+		//ceci est un test
 		//MySQL.closeConnection();
 		
 	}
