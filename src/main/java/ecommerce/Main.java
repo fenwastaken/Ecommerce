@@ -1,16 +1,7 @@
 package ecommerce;
 
-import gui.BasketContentGUI;
-import gui.CustomerGUI;
-import gui.ItemGUI;
-
-import java.net.InetAddress;
-import java.net.UnknownHostException;
-import java.sql.SQLException;
-
-import dao.TestCustomerManager;
-import dao.instanceOfItemManager;
 import database.MySQL;
+import gui.BasketContentGUI;
 
 public class Main {
 
@@ -18,8 +9,6 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		MySQL.setConnection();
-
-		//lol 
 		
 		BasketContentGUI bc = new BasketContentGUI();
 		bc.setVisible(true);
